@@ -9,7 +9,7 @@
 <body>
 
 <h1>Política de Privacidad de Gramo</h1>
-<p class="fecha">Última actualización: 5 de agosto de 2026</p>
+<p class="fecha">Última actualización: 6 de agosto de 2026</p>
 
 <p>Gramo es una aplicación que compara precios y valores nutricionales de productos de
 supermercado para ayudarte a montar la compra más barata que cumpla tus objetivos de
@@ -55,6 +55,12 @@ cestas que has montado y los supermercados donde compras habitualmente.</p>
 «soy vegetariano» o «alérgico a los frutos secos») y las <strong>sugerencias</strong> que
 nos envías desde la sección correspondiente.</p>
 
+<h3>Datos técnicos cuando algo falla</h3>
+<p>Si la app se cierra sola o encuentra un error, se genera un informe técnico con el modelo
+de tu móvil, la versión del sistema operativo, la versión de Gramo, el error concreto y las
+últimas pantallas que visitaste. <strong>No incluye tu identidad ni tus datos personales</strong>;
+el detalle está en el punto 5.</p>
+
 <h3>Qué NO recogemos</h3>
 <ul>
   <li>Ubicación, contactos, cámara, micrófono ni ficheros de tu dispositivo.</li>
@@ -68,8 +74,8 @@ nos envías desde la sección correspondiente.</p>
 
 <ul>
   <li><strong>Sin cuenta (modo invitado).</strong> Todo lo anterior se guarda únicamente en
-  el almacenamiento local de tu móvil. Si desinstalas la app, desaparece. La única excepción
-  es el texto de las observaciones, que se explica en el punto 5.</li>
+  el almacenamiento local de tu móvil. Si desinstalas la app, desaparece. Las dos excepciones
+  son el texto de las observaciones y los informes de fallos, que se explican en el punto 5.</li>
   <li><strong>Con cuenta.</strong> Además, se copia a una fila privada asociada a tu usuario
   en nuestra base de datos, para que puedas recuperar tus listas y tu perfil si cambias de
   móvil. Esa fila está protegida a nivel de base de datos: ningún otro usuario puede leerla.</li>
@@ -108,6 +114,11 @@ nos envías desde la sección correspondiente.</p>
       <td>Mejorar la aplicación y el catálogo de productos</td>
       <td>Consentimiento — art. 6.1.a</td>
     </tr>
+    <tr>
+      <td>Informes de fallos (modelo de móvil, versión y error técnico)</td>
+      <td>Detectar y corregir errores que hacen que la app falle</td>
+      <td>Interés legítimo — art. 6.1.f</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -118,7 +129,7 @@ realizado antes de la retirada.</p>
 
 <h2>5. Quién más trata tus datos</h2>
 
-<p>No vendemos, alquilamos ni cedemos tus datos a nadie. Solo intervienen dos proveedores,
+<p>No vendemos, alquilamos ni cedemos tus datos a nadie. Solo intervienen tres proveedores,
 y únicamente como encargados del tratamiento por cuenta nuestra:</p>
 
 <h3>Supabase — base de datos y autenticación</h3>
@@ -143,6 +154,25 @@ exactamente qué implica:</p>
   campo de observaciones vacío: la app monta la cesta igualmente.</li>
 </ul>
 
+<h3>Sentry — informes de fallos</h3>
+<p>Cuando la app se cierra de forma inesperada o encuentra un error, nos envía un informe
+técnico a través de Sentry para que podamos arreglarlo. Sin esto, un fallo en tu móvil sería
+invisible para nosotros y no llegaríamos a corregirlo nunca.</p>
+
+<ul>
+  <li><strong>Los servidores están en Alemania (Fráncfort)</strong>, dentro de la Unión
+  Europea. No hay transferencia internacional por este concepto.</li>
+  <li><strong>Qué contiene el informe:</strong> el mensaje de error y en qué punto del
+  programa ocurrió, el modelo de móvil, la versión del sistema operativo y la versión de
+  Gramo, y una lista de las últimas pantallas por las que pasaste.</li>
+  <li><strong>Qué hemos desactivado a propósito:</strong> no se graba la pantalla, no se
+  envía tu dirección IP, ni tu correo, ni tu identificador de usuario, ni el nombre que le
+  hayas puesto a tu móvil. Tampoco viajan tu peso, tu altura, tu edad, tu sexo, tus listas
+  ni tus observaciones.</li>
+  <li>Antes de salir del móvil, cada informe pasa por un filtro que elimina esos datos,
+  aunque una versión futura de Sentry cambiara sus valores por defecto.</li>
+</ul>
+
 <h2>6. Cuánto tiempo los conservamos</h2>
 
 <ul>
@@ -152,6 +182,8 @@ exactamente qué implica:</p>
   datos desde los ajustes de tu móvil.</li>
   <li><strong>Observaciones enviadas a Groq:</strong> no las almacenamos. Se usan para
   generar la respuesta y se descartan.</li>
+  <li><strong>Informes de fallos:</strong> Sentry los conserva 90 días y después los
+  elimina automáticamente.</li>
   <li><strong>Sugerencias:</strong> se conservan mientras sean útiles para el producto.
   No se guardan vinculadas a tu cuenta, así que borrar la cuenta no las elimina; si quieres
   que retiremos alguna, escríbenos.</li>

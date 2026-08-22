@@ -111,3 +111,13 @@ footer {
   color: var(--tinta-suave);
   font-size: 0.9rem;
 }
+
+/* Fórmulas y tablas de la página de fuentes. */
+pre {
+  background: #F4F1EC;
+  border-left: 3px solid #C9A84C;
+  padding: 12px 14px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.6;
+}

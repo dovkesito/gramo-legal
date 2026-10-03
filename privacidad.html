@@ -9,7 +9,7 @@
 <body>
 
 <h1>Política de Privacidad de Gramo</h1>
-<p class="fecha">Última actualización: 26 de agosto de 2026</p>
+<p class="fecha">Última actualización: 3 de octubre de 2026</p>
 
 <p>Gramo es una aplicación que compara precios y valores nutricionales de productos de
 supermercado para ayudarte a montar la compra más barata que cumpla tus objetivos de
@@ -50,8 +50,9 @@ cestas que has montado y los supermercados donde compras habitualmente.</p>
 
 <h3>Texto que escribes tú</h3>
 <p>Las <strong>observaciones</strong> que escribes al montar una cesta (por ejemplo
-«soy vegetariano» o «alérgico a los frutos secos») y las <strong>sugerencias</strong> que
-nos envías desde la sección correspondiente.</p>
+«no como cerdo» o «alérgico a los frutos secos»), lo que escribes en el
+<strong>chat de Gramín</strong>, las <strong>listas que importas</strong> y las
+<strong>sugerencias</strong> que nos envías desde la sección correspondiente.</p>
 <p>La sugerencia incluye un campo de nombre que puedes dejar vacío o cambiar; si tienes la
 sesión iniciada, viene relleno con el nombre de tu cuenta. Y si la envías con sesión, queda
 además asociada a tu usuario, que es lo que nos permite eliminarla si borras la cuenta.</p>
@@ -76,7 +77,8 @@ el detalle está en el punto 5.</p>
 <ul>
   <li><strong>Sin cuenta (modo invitado).</strong> Todo lo anterior se guarda únicamente en
   el almacenamiento local de tu móvil. Si desinstalas la app, desaparece. Las dos excepciones
-  son el texto de las observaciones y los informes de fallos, que se explican en el punto 5.</li>
+  son el texto que se envía al servicio de IA (observaciones, chat de Gramín y listas
+  importadas) y los informes de fallos, que se explican en el punto 5.</li>
   <li><strong>Con cuenta.</strong> Además, se copia a una fila privada asociada a tu usuario
   en nuestra base de datos, para que puedas recuperar tus listas y tu perfil si cambias de
   móvil. Esa fila está protegida a nivel de base de datos: ningún otro usuario puede leerla.</li>
@@ -107,8 +109,13 @@ el detalle está en el punto 5.</p>
     </tr>
     <tr>
       <td>Observaciones en texto libre</td>
-      <td>Traducir lo que escribes a restricciones de dieta aplicables a la cesta</td>
+      <td>Traducir lo que escribes a restricciones de dieta y alimentos que quitar de la cesta</td>
       <td><strong>Consentimiento explícito</strong> — art. 9.2.a</td>
+    </tr>
+    <tr>
+      <td>Mensajes del chat de Gramín y listas importadas</td>
+      <td>Responderte y calcular los valores nutricionales de la lista que importas</td>
+      <td>Ejecución de un contrato — art. 6.1.b</td>
     </tr>
     <tr>
       <td>Sugerencias (y tu identificador de usuario, si las envías con sesión)</td>
@@ -138,21 +145,23 @@ y únicamente como encargados del tratamiento por cuenta nuestra:</p>
 <strong>Irlanda (AWS, región eu-west-1)</strong>, es decir, dentro de la Unión Europea.
 No hay transferencia internacional por este concepto.</p>
 
-<h3>Groq, Inc. — interpretación de las observaciones</h3>
+<h3>NVIDIA Corporation — inteligencia artificial</h3>
 <p>Cuando escribes observaciones al montar una cesta, ese texto se envía a un modelo de
-lenguaje operado por Groq, Inc., en <strong>Estados Unidos</strong>, que lo traduce a
-restricciones (vegetariano, sin lactosa, ingredientes a evitar…). Conviene que sepas
-exactamente qué implica:</p>
+lenguaje operado por NVIDIA Corporation, en <strong>Estados Unidos</strong>, que lo traduce
+a restricciones (vegetariano, sin lactosa, alimentos a evitar…). Lo mismo ocurre con lo que
+escribes en el chat de Gramín y con las listas que importas. Conviene que sepas exactamente
+qué implica:</p>
 
 <ul>
   <li><strong>Solo viaja el texto.</strong> La petición sale desde nuestro servidor y
   <strong>no incluye tu correo, tu nombre, tu identificador de usuario ni ningún otro dato
-  tuyo</strong>. Groq no puede vincular ese texto contigo.</li>
-  <li>Tu peso, tu altura, tu edad y tu sexo <strong>nunca</strong> se envían a Groq.</li>
+  tuyo</strong>. NVIDIA no puede vincular ese texto contigo.</li>
+  <li>Tu peso, tu altura, tu edad y tu sexo <strong>nunca</strong> se envían a NVIDIA.</li>
   <li>Es una transferencia internacional de datos, amparada en las cláusulas contractuales
   tipo aprobadas por la Comisión Europea.</li>
   <li><strong>Es opcional.</strong> Si prefieres que nada salga de la Unión Europea, deja el
-  campo de observaciones vacío: la app monta la cesta igualmente.</li>
+  campo de observaciones vacío y no uses el chat ni la importación de listas: la app monta
+  la cesta igualmente.</li>
 </ul>
 
 <h3>Sentry — informes de fallos</h3>
@@ -181,8 +190,8 @@ invisible para nosotros y no llegaríamos a corregirlo nunca.</p>
   borras, se eliminan de forma inmediata y definitiva, sin copia de respaldo recuperable.</li>
   <li><strong>Datos en modo invitado:</strong> hasta que desinstales la app o borres sus
   datos desde los ajustes de tu móvil.</li>
-  <li><strong>Observaciones enviadas a Groq:</strong> no las almacenamos. Se usan para
-  generar la respuesta y se descartan.</li>
+  <li><strong>Texto enviado a NVIDIA</strong> (observaciones, chat y listas importadas):
+  nosotros no lo almacenamos. Se usa para generar la respuesta y se descarta.</li>
   <li><strong>Informes de fallos:</strong> Sentry los conserva 90 días y después los
   elimina automáticamente.</li>
   <li><strong>Sugerencias:</strong> se conservan mientras sean útiles para el producto.
